@@ -43,4 +43,4 @@ $(document).ready(function () {
     })
     addCards(cardList);
     $('.modal').modal();
-});
+});no
