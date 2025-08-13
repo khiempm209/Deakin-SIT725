@@ -12,9 +12,9 @@ const ProjectSchema = new mongoose.Schema({
 
 const Project = mongoose.model('Project', ProjectSchema);
 const sampleProject = new Project({
-    title: "Kitten 5",
-    image: "images/kitten-5.jpg",
-    link: "About Kitten 5",
-    description: "Demo description about kitten 5"  
+    title: "Kitten 6",
+    image: "images/kitten-6.jpg",
+    link: "About Kitten 6",
+    description: "Demo description about kitten 6"  
 });
 sampleProject.save().then(() => console.log("Sample projectsaved!"));
